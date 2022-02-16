@@ -4,17 +4,20 @@ import AppContext from './AppContext';
 import api from '../services/api';
 
 function AppProvider({ children }) {
-  const [tasks, setTasks] = useState([]);
+  const [taskList, setTaskList] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(async () => {
     const { data } = await api.get();
 
-    setTasks(data);
+    setTaskList(data);
+    setLoading(false);
   }, []);
 
   const contextValue = {
-    tasks,
-    setTasks,
+    taskList,
+    setTaskList,
+    loading,
   };
 
   return (
