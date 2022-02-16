@@ -1,12 +1,15 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 import MainPage from './pages/MainPage';
+import AppProvider from './context/AppProvider.jsx';
 
 function App() {
   return (
-    <Container>
-      <MainPage />
-    </Container>
+    <AppProvider>
+      <Container>
+        <MainPage />
+      </Container>
+    </AppProvider>
   );
 }
 
