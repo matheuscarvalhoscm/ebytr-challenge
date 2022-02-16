@@ -7,6 +7,7 @@ function AppProvider({ children }) {
   const [taskList, setTaskList] = useState([]);
   const [loading, setLoading] = useState(true);
   const [inputText, setInputText] = useState('');
+  const [sortBy, setSortBy] = useState('');
 
   useEffect(async () => {
     const { data } = await api.get();
@@ -21,6 +22,8 @@ function AppProvider({ children }) {
     loading,
     inputText,
     setInputText,
+    sortBy,
+    setSortBy,
   };
 
   return (
