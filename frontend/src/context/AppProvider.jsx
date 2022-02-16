@@ -6,18 +6,21 @@ import api from '../services/api';
 function AppProvider({ children }) {
   const [taskList, setTaskList] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [inputText, setInputText] = useState('');
 
   useEffect(async () => {
     const { data } = await api.get();
 
     setTaskList(data);
     setLoading(false);
-  }, []);
+  }, [taskList]);
 
   const contextValue = {
     taskList,
     setTaskList,
     loading,
+    inputText,
+    setInputText,
   };
 
   return (
