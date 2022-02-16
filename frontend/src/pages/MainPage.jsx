@@ -2,6 +2,8 @@ import React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import AddTask from '../components/AddTask';
+import TaskList from '../components/TaskList';
+import Filters from '../components/Filters';
 
 function MainPage() {
   return (
@@ -16,6 +18,8 @@ function MainPage() {
         Too Doo
       </Typography>
       <AddTask />
+      <TaskList />
+      <Filters />
     </Container>
   );
 }
