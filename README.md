@@ -72,6 +72,12 @@ As seguintes tecnologias foram utilizadas na construção desse projeto:
   * [body-parser](https://www.npmjs.com/package/body-parser)
   * [CORS](https://www.npmjs.com/package/cors)
 
+* **Testes**
+  * [Mocha](https://mochajs.org/)
+  * [Sinon](https://sinonjs.org/)
+  * [Chai](https://www.chaijs.com/)
+  * [MongoDD Memory Server](https://www.npmjs.com/package/mongodb-memory-server)
+
 **Front-End**
 * [React.js](https://pt-br.reactjs.org/) + [Javascript](https://www.javascript.com/)
   * [Axios](https://axios-http.com/docs/intro)
@@ -88,7 +94,7 @@ Em seguida foi desenvolvido o Front-End, utilizando componentes React e a [Conte
 
 Algumas funcionalidades do Front-End ainda serão desenvolvidas sendo elas: editar e ordenar as tarefas.
 
-### 🚶🏾‍♂️️ Próximos passos:
+### 🚶🏾‍♂️️ Próximos passos
 
 * Implementar funcionalidades do Fron-End
 * Implementar testes (mínimo 30% de cobertura)
