@@ -2,7 +2,7 @@
 
 ## 💻️ Sobre o projeto
 
-Too Doo é um projeto Full-Stack desenvolvido durante a Blitz de Carreira da [Trybe](https://www.betrybe.com/) - Evento realizado com o intuíto de acelerar a aprovação de pessoas estudantes nas etapas técnicas dos processos seletivos na área de Desenvolvimento Web.
+Too Doo é um projeto Full-Stack desenvolvido durante a Blitz de Carreira da [Trybe](https://www.betrybe.com/) - evento realizado com o intuito de acelerar a aprovação de pessoas estudantes nas etapas técnicas dos processos seletivos na área de Desenvolvimento Web.
 
 O projeto consiste em uma lista de tarefas seguindo os conceitos [CRUD](https://developer.mozilla.org/pt-BR/docs/Glossary/CRUD) e [MERN](https://www.mongodb.com/mern-stack).
 
