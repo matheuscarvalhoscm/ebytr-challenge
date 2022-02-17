@@ -2,8 +2,8 @@ const sinon = require('sinon');
 const { expect } = require('chai');
 const { MongoClient } = require('mongodb');
 const { getConnection } = require('./mockConnection');
-
 const taskModel = require('../models/taskModel');
+
 const dbName = 'ebytr-challenge';
 const collection = 'tasks';
 
