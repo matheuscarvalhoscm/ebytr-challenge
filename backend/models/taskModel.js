@@ -23,7 +23,7 @@ const getAll = async () => {
 
 const update = async (id, task, status) => {
   const db = await conn();
-  const updatedTask = await db.collection('tasks').updateOne(
+  await db.collection('tasks').updateOne(
     { _id: ObjectId(id) },
     { $set: { task, status } },
   );
