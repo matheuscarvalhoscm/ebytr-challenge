@@ -88,7 +88,7 @@ Em seguida foi desenvolvido o Front-End, utilizando componentes React e a [Conte
 
 Algumas funcionalidades do Front-End ainda serão desenvolvidas sendo elas: editar e ordenar as tarefas.
 
-### 🚶🏾‍♂️️ Próximos passos
+### 🚶🏾‍♂️️ Próximos passos:
 
 * Implementar funcionalidades do Fron-End
 * Implementar testes (mínimo 30% de cobertura)
